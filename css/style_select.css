@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* 背景 */
+body {
+    background: #0A3C5A;
+    background: rgb(10, 60, 90);
+    background: linear-gradient(90deg, rgba(10,60,90,1) 0%, rgb(7, 42, 64,1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+}
+
+header {
+    background-color: #1D536E;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav {
+    display: flex; /* ナビゲーションをフレックスボックスとして配置 */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+.menu, .logout {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li, .logout li {
+    display: inline-block; /* メニュー項目をインラインブロックとして配置 */
+    vertical-align: middle; /* 垂直方向の中央揃え */
+}
+
+.menu li:not(:last-child) {
+    margin-right: 20px; /* メニュー項目の間隔を設定 */
+}
+
+.menu li a, .logout li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu li a:hover, .logout li a:hover {
+    background-color: #555;
+}
+
+.logout {
+    margin-left: auto; /* ログアウトボタンを右端に配置 */
+}
+
+.logout li {
+    display: inline-block;
+}
+
+.logout li a {
+    background-color: #E45D69;
+}

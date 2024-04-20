@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* 背景 */
+body {
+    /* background: #0A3C5A; */
+    /* background: rgb(10, 60, 90); */
+    /* background: linear-gradient(90deg, rgba(10,60,90,1) 0%, rgb(7, 42, 64,1) 50%); */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+}
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 3% 0 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.15em;
+}
+
+/* ログインページ */
+.login-page {
+  width: 380px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+
+/* 背景toggleClass */
+.body_login_color {
+    background: #0A3C5A;
+    background: rgb(10, 60, 90);
+    background: linear-gradient(90deg, rgba(10,60,90,1) 0%, rgb(7, 42, 64,1) 50%);
+}
+.body_register_color {
+    background: #E45D69;
+    background: rgb(228, 93, 105);
+    background: linear-gradient(90deg, rgba(228,93,105,1) 0%, rgb(210, 82, 93,1) 50%);
+}
+
+/* フォーム */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 380px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form2 {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 380px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form2 input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* フォームボタン */
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form2 button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/* フォームボタンtoggleClass */
+.login_btn_color {
+    background: #E45D69;
+}
+.login_btn_color:hover,.login_btn_color:active,.login_btn_color:focus {
+    background: #E45D69;
+}
+.register_btn_color {
+    background: #0A3C5A;
+}
+.register_btn_color:hover,.register_btn_color:active,.register_btn_color:focus {
+    background: #0A3C5A;
+}
+.image_upload_color {
+  background: #CE414D;
+}
+.image_upload_color:hover,.image_upload_color:active,.image_upload_color:focus {
+  background: #CE414D;
+}
+.image_download_color {
+  background: #1D536E;
+}
+.image_download_color:hover,.image_download_color:active,.image_download_color:focus {
+  background: #1D536E;
+}
+
+/* フォームメッセージ */
+.form .message {
+  margin: 15px 0 0;
+  color: #a2a2a2;
+  font-size: 12px;
+}
+.form .message a {
+  text-decoration: none;
+}
+
+/* フォームメッセージtoggleClass */
+.login_message_color {
+    color: #E45D69;
+}
+.login_message_color:hover,.login_message_color:active,.login_message_color:focus {
+    color: #E45D69;
+}
+.register_message_color {
+    color: #0A3C5A;
+}
+.register_message_color:hover,.register_message_color:active,.register_message_color:focus {
+    color: #0A3C5A;
+}
+.form .register-form {
+  display: none;
+}
